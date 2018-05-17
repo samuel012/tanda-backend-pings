@@ -14,14 +14,14 @@ hsh[1] = [1459198796, 1459199096, 1459199396, 1459199696, 1459199996, 1459200296
   puts '--------------'
   puts deviceid
   puts idx.to_s
-  puts hsh[idx]
+  puts '--------------'
+
   hsh[idx].each do |ping|
-    device_input_params = {
-      identifier: deviceid,
-      pings_attributes: [
-        { datetimestamp: Time.at(ping).utc }
-      ]
+    h = {
+      device_id: deviceid,
+      epoch_time: Time.at(ping).utc
     }
-    Device.create!(device_input_params)
+    Device.create_device_and_pings(h)
   end
+  
 end

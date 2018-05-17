@@ -9,7 +9,6 @@ POST   /clear_data
 def is_iso_formatted_date?(dateString, format="%Y-%m-%d")
   begin
     Date.strptime(dateString, format) 
-    true
   rescue
     false
   end

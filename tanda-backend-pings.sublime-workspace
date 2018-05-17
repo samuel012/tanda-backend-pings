@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"para",
+				"parameters"
+			],
+			[
 				"paddin",
 				"padding-top"
 			],
@@ -31,6 +35,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/controllers/pings_controller.rb",
+			"settings":
+			{
+				"buffer_size": 672,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/requests/pings_spec.rb",
+			"settings":
+			{
+				"buffer_size": 3068,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -70,8 +92,27 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+	],
 	"file_history":
 	[
+		"/home/rails5devbox/Documents/TestProjects/tanda-backend-pings/spec/factories/pings.rb",
+		"/home/rails5devbox/Documents/TestProjects/tanda-backend-pings/spec/models/ping_spec.rb",
+		"/home/rails5devbox/Documents/TestProjects/tanda-backend-pings/spec/models/device_spec.rb",
+		"/home/rails5devbox/Documents/TestProjects/tanda-backend-pings/spec/support/request_spec_helper.rb",
+		"/home/rails5devbox/Documents/TestProjects/tanda-backend-pings/config/routes.rb",
+		"/home/rails5devbox/Documents/TestProjects/tanda-backend-pings/app/models/ping.rb",
+		"/home/rails5devbox/Documents/TestProjects/tanda-backend-pings/db/schema.rb",
+		"/home/rails5devbox/Documents/TestProjects/tanda-backend-pings/app/models/device.rb",
+		"/home/rails5devbox/Documents/TestProjects/tanda-backend-pings/spec/rails_helper.rb",
+		"/home/rails5devbox/Documents/TestProjects/tanda-backend-pings/app/controllers/devices_controller.rb",
+		"/home/rails5devbox/Documents/TestProjects/tanda-backend-pings/app/controllers/application_controller.rb",
+		"/home/rails5devbox/Documents/TestProjects/tanda-backend-pings/app/controllers/concerns/exception_handler.rb",
+		"/home/rails5devbox/Documents/TestProjects/tanda-backend-pings/app/controllers/concerns/response.rb",
+		"/home/rails5devbox/Documents/TestProjects/tanda-backend-pings/.rspec",
+		"/home/rails5devbox/Documents/TestProjects/tanda-backend-pings/db/migrate/20180514113546_create_pings.rb",
+		"/home/rails5devbox/Documents/TestProjects/tanda-backend-pings/Gemfile",
 		"/home/rails5devbox/Documents/Projects/lbca/config/routes.rb",
 		"/home/rails5devbox/Documents/Projects/lbca/Gemfile",
 		"/home/rails5devbox/Documents/Projects/lbca/config/application.rb",
@@ -124,13 +165,14 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 98.0,
 		"where_history":
 		[
+			"/home/rails5devbox/Documents/TestProjects/tanda-backend-pings"
 		]
 	},
 	"find_state":
@@ -138,6 +180,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"status",
+			"START ***************",
+			"RequestSpecHelper",
+			"support",
+			"todo",
+			":todo",
+			"todos",
+			"create_list",
+			"`",
+			"include",
+			":test"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -145,6 +198,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			":ping",
+			"pings"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -155,14 +210,73 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/controllers/pings_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 672,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								595,
+								595
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "spec/requests/pings_spec.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3068,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1859,
+								1859
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 585.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 21.0
 	},
 	"input":
 	{
@@ -199,7 +313,7 @@
 	"project": "tanda-backend-pings.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 68.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -208,6 +322,74 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"modelpn",
+				"app/models/ping.rb"
+			],
+			[
+				"schem",
+				"db/schema.rb"
+			],
+			[
+				"modelpi",
+				"app/models/ping.rb"
+			],
+			[
+				"modelde",
+				"app/models/device.rb"
+			],
+			[
+				"devi",
+				"app/models/device.rb"
+			],
+			[
+				"control",
+				"app/controllers/pings_controller.rb"
+			],
+			[
+				"railshel",
+				"spec/rails_helper.rb"
+			],
+			[
+				"applicationcontr",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"rails_hel",
+				"spec/rails_helper.rb"
+			],
+			[
+				"requestspech",
+				"spec/support/request_spec_helper.rb"
+			],
+			[
+				"rails_h",
+				"spec/rails_helper.rb"
+			],
+			[
+				"modelpin",
+				"app/models/ping.rb"
+			],
+			[
+				"modeldev",
+				"app/models/device.rb"
+			],
+			[
+				"modeldevi",
+				"app/models/device.rb"
+			],
+			[
+				"modelping",
+				"app/models/ping.rb"
+			],
+			[
+				"gemf",
+				"Gemfile"
+			],
 			[
 				"route",
 				"lbca/config/routes.rb"
@@ -513,10 +695,6 @@
 				"suggestotron/app/views/topics/index.html.erb"
 			],
 			[
-				"rout",
-				"suggestotron/config/routes.rb"
-			],
-			[
 				"model/vot",
 				"suggestotron/app/models/vote.rb"
 			],
@@ -552,7 +730,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 251.0,
 	"status_bar_visible": true,
 	"template_settings":

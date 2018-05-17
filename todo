@@ -1,0 +1,16 @@
+POST   /:device_id/:epoch_time
+GET    /:device_id/:date            :date --- YYYY-MM-DD
+       /:device_id/:from/:to
+       /all/:date                   :date --- YYYY-MM-DD
+       /all/:from/:to
+GET    /devices
+POST   /clear_data
+
+def is_iso_formatted_date?(dateString, format="%Y-%m-%d")
+  begin
+    Date.strptime(dateString, format) 
+    true
+  rescue
+    false
+  end
+end
